@@ -4,19 +4,110 @@
 <head>
 <meta charset="UTF-8">
 <title>Mario Bros KMex</title>
+
+<style>
+
+body{
+    font-family:Arial;
+    background:#f4f6f9;
+    padding:30px;
+}
+
+h1{
+    text-align:center;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 2px 10px rgba(0,0,0,.15);
+    text-align:center;
+}
+
+.card img{
+    width:100%;
+    height:250px;
+    object-fit:contain;
+}
+
+button{
+    background:#e60012;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#b3000d;
+}
+
+</style>
 </head>
 
 <body>
 
-<h1>🍄 Mario Bros KMex</h1>
+<h1>🍄 Selección de Personajes Mario Bros</h1>
 
-<img src="https://upload.wikimedia.org/wikipedia/en/a/a9/MarioNSMBUDeluxe.png"
-width="300">
+<div class="grid">
 
+<div class="card">
+<img src="mario.png">
 <h2>Mario</h2>
-
 <button>Seleccionar</button>
+</div>
+
+<div class="card">
+<img src="luigi.png">
+<h2>Luigi</h2>
+<button>Seleccionar</button>
+</div>
+
+<div class="card">
+<img src="peach.png">
+<h2>Peach</h2>
+<button>Seleccionar</button>
+</div>
+
+<div class="card">
+<img src="toad.png">
+<h2>Toad</h2>
+<button>Seleccionar</button>
+</div>
+
+<div class="card">
+<img src="toadette.png">
+<h2>Toadette</h2>
+<button>Seleccionar</button>
+</div>
+
+<div class="card">
+<img src="yoshi.png">
+<h2>Yoshi</h2>
+<button>Seleccionar</button>
+</div>
+
+<div class="card">
+<img src="wario.png">
+<h2>Wario</h2>
+<button>Seleccionar</button>
+</div>
+
+<div class="card">
+<img src="Waluigi.png">
+<h2>Waluigi</h2>
+<button>Seleccionar</button>
+</div>
+
+</div>
 
 </body>
-
 </html>
